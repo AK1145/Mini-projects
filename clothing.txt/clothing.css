@@ -1,0 +1,132 @@
+nav{
+    background-color: black;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 18px;
+    text-decoration: none;
+    color:white;
+    transition: 0.2s ease-in;
+    font-size: 18px;
+}
+nav ul a:hover{
+    background-color: grey;
+    color: white;
+}
+.item1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20PX;
+    grid-row-gap: 30px;
+}
+.item11 img{
+    padding: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.item11 img:hover{
+    transform: scale(1.04);
+}
+.item11 button{
+    border-radius: 5px;
+    padding: 5px 30px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    text-size-adjust: 20px;
+    transition: 0.2s all;
+}
+.item11 button:hover{
+    transform: scale(0.90);
+}
+.item2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20PX;
+    grid-row-gap: 30px;
+}
+.item22 img{
+    padding: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.item22 img:hover{
+    transform: scale(1.04);
+}
+.item22 button{
+    border-radius: 5px;
+    padding: 5px 30px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    text-size-adjust: 20px;
+    transition: 0.2s all;
+}
+.item22 button:hover{
+    transform: scale(0.90);
+}
+.item3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20PX;
+    grid-row-gap: 30px;
+}
+.item33 img{
+    padding: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.item33 img:hover{
+    transform: scale(1.04);
+}
+.item33 button{
+    border-radius: 5px;
+    padding: 5px 30px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    text-size-adjust: 20px;
+    transition: 0.2s all;
+}
+.item33 button:hover{
+    transform: scale(0.90);
+}
+.item4{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20PX;
+    grid-row-gap: 30px;
+}
+.item44 img{
+    padding: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.item44 img:hover{
+    transform: scale(1.04);
+}
+.item44 button{
+    border-radius: 5px;
+    padding: 5px 30px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    text-size-adjust: 20px;
+    transition: 0.2s all;
+}
+.item44 button:hover{
+    transform: scale(0.90);
+}
